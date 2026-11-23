@@ -1,6 +1,5 @@
-// Configuracion de Supabase (Sustituye con tus credenciales de tu cuenta de Supabase)
-const SUPABASE_URL = 'TUS_DATOS_SUPABASE_URL';
-const SUPABASE_ANON_KEY = 'TUS_DATOS_SUPABASE_ANON_KEY';
+const SUPABASE_URL = 'https://yyxpkfwbdzyhzluapgr.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_09TKqJdRwJAo4eut_oIn7A_ifiLwtT-';
 
 const { createClient } = supabase;
 const _supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
@@ -19,6 +18,6 @@ document.getElementById('loginForm')?.addEventListener('submit', async (e) => {
         alert('Error al iniciar sesión: ' + error.message);
     } else {
         alert('¡Bienvenido a EducSex!');
-        window.location.href = 'dashboard-usuario.html';
+        window.location.href = 'dashboard_usuario.html';
     }
 });
