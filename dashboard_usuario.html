@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel de Usuario - EducSex</title>
+    <!-- Bootstrap CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body class="bg-light">
 
+    <!-- Navbar Superior -->
     <nav class="navbar navbar-dark bg-primary-custom">
         <div class="container">
             <span class="navbar-brand fw-bold">Panel de Usuario | EducSex</span>
@@ -16,15 +18,11 @@
         </div>
     </nav>
 
+    <!-- Contenido Principal del Dashboard -->
     <div class="container py-5">
         <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="card shadow border-0 p-3">
-                    <h5 class="fw-bold text-custom">Test Interactivo</h5>
-                    <p class="text-muted small">Evalúa tus conocimientos sobre prevención y salud reproductiva.</p>
-                    <button class="btn btn-primary-custom btn-sm">Comenzar Test</button>
-                </div>
-            </div>
+            
+            <!-- Tarjeta 1: Centros de Salud -->
             <div class="col-md-4 mb-4">
                 <div class="card shadow border-0 p-3">
                     <h5 class="fw-bold text-custom">Centros de Salud</h5>
@@ -32,16 +30,30 @@
                     <button class="btn btn-primary-custom btn-sm">Ver Mapa</button>
                 </div>
             </div>
+
+            <!-- Tarjeta 2: Test Interactivo -->
             <div class="col-md-4 mb-4">
                 <div class="card shadow border-0 p-3">
-                    <h5 class="fw-bold text-custom">Mitos y Realidades</h5>
-                    <p class="text-muted small">Despeja dudas con información respaldada por la Secretaría de Salud.</p>
+                    <h5 class="fw-bold text-custom">Test Interactivo</h5>
+                    <p class="text-muted small">Evalúa tus conocimientos sobre prevención y salud reproductiva.</p>
+                    <button class="btn btn-primary-custom btn-sm">Comenzar Test</button>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3: Métodos Anticonceptivos -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow border-0 p-3">
+                    <h5 class="fw-bold text-custom">Métodos Anticonceptivos</h5>
+                    <p class="text-muted small">Conoce su efectividad, uso correcto y disponibilidad.</p>
                     <button class="btn btn-primary-custom btn-sm">Consultar</button>
                 </div>
             </div>
+
         </div>
     </div>
 
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/auth.js"></script>
 </body>
 </html>
